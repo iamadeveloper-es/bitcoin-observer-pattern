@@ -1,0 +1,45 @@
+.crypto{
+    width: 100%;
+    margin-top: 4rem;
+    //height: 80vh;
+}
+.crypto__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.crypto__image{
+    width: 3rem;
+    margin-right: 1rem;
+}
+.crypto__bitcoin{
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #cecece;
+    border-radius: 0.6rem;
+    box-shadow: 5px 2px 9px #dddddd;
+
+}
+.crypto__status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fas{
+        font-size: 4rem;
+        opacity: 1;
+        transform: translateY(0);
+        &.fa-long-arrow-alt-up{
+            color: green;
+        }
+        &.fa-long-arrow-alt-down{
+            color: red;
+        }
+    }
+}
+.crypto__price{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
